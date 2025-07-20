@@ -1,0 +1,70 @@
+.form {
+  height: 17cm;
+  width: 100%;
+  border: 4px double teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Screenshot\ 2025-07-19\ 045729.png);
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: cover;
+}
+.row {
+  margin-bottom: 1cm;
+  display: flex;
+  column-gap: 1cm;
+}
+.row label {
+  width: 3cm;
+}
+.row input {
+  width: 6cm;
+  row-gap: 1cm;
+}
+.personal {
+  border: 1px #990067 solid;
+  background: linear-gradient(35deg, skyblue, rgb(244, 172, 108));
+  opacity: 0.8;
+  width: 150px;
+  border-radius: 0.4cm;
+  box-shadow: 1px 1px 10px rgb(239, 172, 151);
+  padding: 0.5cm 1cm 1cm 1cm;
+  display: block;
+  box-shadow: inset 3px 3px 0.2cm rgb(144, 172, 168);
+  font-family: "Times New Roman", Times, serif;
+}
+.inp {
+  opacity: 0.6;
+
+  border: 1px solid rgb(156, 242, 215);
+  border-radius: 6px;
+}
+.login {
+  padding-bottom: 0.5cm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1cm;
+  color: #ffff;
+  font-weight: bold;
+}
+.submitbutton {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  color: #341213;
+  width: 3cm;
+  height: 1cm;
+  border: 3px double red;
+  background: linear-gradient(15deg, rgb(255, 197, 196), rgb(111, 206, 250));
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgb(230, 10, 120);
+
+  margin-top: 1cm;
+}
+.submitbutton:hover {
+  border: 3px double #990067;
+  background: linear-gradient(0deg, rgb(111, 206, 250), rgb(255, 197, 196));
+
+  box-shadow: 2px 2px 10px rgb(49, 148, 148);
+}

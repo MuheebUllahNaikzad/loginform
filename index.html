@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="form">
+      <form action="">
+        <fieldset class="personal">
+          <div class="login">Log in Form</div>
+          <div class="row">
+            <label for="name">Name:</label>
+            <input
+              class="inp"
+              type="text"
+              required
+              name="name"
+              id="name"
+              placeholder="Enter name"
+            />
+          </div>
+
+          <div class="row">
+            <label for="name">Date of birth:</label>
+            <input
+              class="inp"
+              type="date"
+              required
+              name="date"
+              id="date"
+              value="Date of birth"
+            />
+          </div>
+
+          <div class="row">
+            <label for="number">Phone Number:</label>
+            <input
+              class="inp"
+              type="text"
+              name="number"
+              id="number"
+              value="+92"
+              pattern="[0-9+]{8,13}"
+              title="Enter phone number with
+            format = +923000000000"
+              required
+            />
+          </div>
+          <div class="row">
+            <label for="email">Email address</label>
+            <input
+              class="inp"
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="abc@gmail.com"
+            />
+          </div>
+        </fieldset>
+        <div style="display: flex; justify-content: center">
+          <input
+            class="submitbutton"
+            type="submit"
+            name="submitbutton"
+            id="submitbutton"
+            required
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
